@@ -175,6 +175,20 @@ class _HomePageState extends State<HomePage> {
                   Expanded(
                     child: Container(
                       color: Colors.red,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.only(
+                            bottomLeft: Radius.circular(30),
+                            bottomRight: Radius.circular(30),
+                          ),
+                          image: DecorationImage(
+                              image: NetworkImage(
+                                  "https://b.zmtcdn.com/data/pictures/9/19093409/edce560e9ad262072c52fd0820f8972c.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"))),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      color: Colors.red,
+                      decoration: BoxDecoration(),
                     ),
                   ),
                 ],
